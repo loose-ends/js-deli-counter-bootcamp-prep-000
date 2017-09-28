@@ -20,6 +20,6 @@ function currentLine(katzDeli)  {
       line.push(" " + (parseInt([i])+1) + ". " + katzDeli[i])
       i++
     }
-    return ("The line is currently:${line}")
+    return ("The line is currently:[]${line}]")
   }
 }
