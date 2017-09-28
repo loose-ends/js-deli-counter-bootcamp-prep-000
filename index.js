@@ -4,7 +4,6 @@ function takeANumber(katzDeli, name)  {
 }
 
 function nowServing(katzDeli) {
-<<<<<<< HEAD
   if (katzDeli.length === 0) {return("There is nobody waiting to be served!")}
   else {
     var next = katzDeli[0]
@@ -21,12 +20,6 @@ function currentLine(katzDeli)  {
       line.push(" " + (parseInt([i])+1) + ". " + katzDeli[i])
       i++
     }
-    return ("The line is currently:" + line)
+    return ("The line is currently:{line}")
   }
 }
-=======
-  if (i===1) {array.push("I am 1 strange loop.")}
-  else {array.push("I am ${i} strange loops." )}
-  return array
-}
->>>>>>> aee01d61d9a68732842385902487d087273a24c3
